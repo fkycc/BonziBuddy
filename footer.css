@@ -1,0 +1,28 @@
+footer{
+    background-color: #0f6080;
+    color: white;
+    padding: 1em;
+    
+}
+footer, footer .contact{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+.footer_logo{
+    max-width: 150px;
+}
+footer img{
+    max-width: 48px;
+}
+footer img:hover:not(.footer_logo){
+    opacity: 0.9;
+}
+footer a, footer a:visited{
+    color: white
+}
+footer a, footer span{
+    line-height: 1.5em;
+}
